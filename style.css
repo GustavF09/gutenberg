@@ -1,0 +1,148 @@
+@import url('https://googleapis.com');
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+
+header {
+  border-bottom: 0.1rem solid black;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+h1 a {
+  text-decoration: none;
+  color: black;
+  padding: 1rem;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: black;
+}
+
+
+
+main {
+  max-width: 70rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+}
+
+.Title1 {
+  font-family: "Eater", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3rem;
+
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.Title2 {
+  text-align: center;
+  margin-bottom: 3rem;
+  margin-top: 0;
+}
+
+.kapittel-meny {
+  max-width: 30rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border: 0.1rem solid black;
+  padding: 2rem;
+  padding-top: 1rem;
+  margin-top: 3rem;
+}
+
+main article {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5rem;
+}
+
+main article section {
+  margin-bottom: 5rem;
+}
+
+main article h3 {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.ToLetter {
+  text-align: center;
+  margin: 1.5rem;
+  font-style: italic;
+}
+
+.DateLetter {
+  text-align: right;
+}
+
+main article p {
+  max-width: 75ch;
+  line-height: 2rem;
+  font-size: larger;
+}
+
+.WhoWrote {
+  text-align: right;
+}
+
+
+footer {
+  background-color: rgb(40, 40, 50);
+  padding: 5rem;
+  padding-bottom: 1rem;
+  margin-top: 5rem;
+  margin-bottom: 0;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.KontaktBox {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5rem;
+  max-width: 60rem;
+  padding: 1rem;
+  
+  background-color: rgb(50, 50, 70);
+  border-radius: 1rem;
+}
+
+.KontaktBox h2 {
+  color: lemonchiffon;
+}
+
+.KontaktBox p {
+  color: whitesmoke;
+}
+
+.Skapare {
+  font-family: "Pinyon Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
